@@ -103,12 +103,7 @@ void setup()
 //----------------------------LOOP()------------------------------------------------//
 void loop() 
 { 
-  //timer.run();
-  int int_data = 100;
-  radio.stopListening();                                                            // Stop listening
-  radio.write(&int_data,strlen(int_data));
-  radio.startListening();                                                           // Start listening
-  delay(1000);
+  timer.run();
 }
 /*-----( Declare User-written Functions )----------*/
 int getState(unsigned short pin)
