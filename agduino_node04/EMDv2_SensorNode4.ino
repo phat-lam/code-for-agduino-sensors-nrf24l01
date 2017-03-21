@@ -1,6 +1,6 @@
 /*
  * Simple code for the nRF_gateway ID 04 in mushroom growing room. 
- * Collects data from sensor nodes and Sends data to BB_gateway by RF wireless transceiver nRF24L01+.
+ * Collects data from sensors and Sends data to BB_gateway by RF wireless transceiver nRF24L01+.
  * 
  * Atmega328p-au MCU with arduino bootloader.
  * Data transceiver: rfic nRF24L01+ with SPI serial interface, frequency: 2.4MHz, baud-rate: 250 kbps, channel: 0x60 hex (96 int).
