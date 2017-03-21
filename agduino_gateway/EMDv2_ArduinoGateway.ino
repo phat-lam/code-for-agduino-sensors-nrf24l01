@@ -33,7 +33,7 @@
 
 SimpleTimer timer;
 /*-----( Declare Constants and Pin Numbers )------*/
-// WSN ID. "001" shows this node in Network 0 and has ID 00.
+// WSN ID. "000" shows this node in Network 0 and has ID 00.
 char node_id[4] = "000";
 // nRF24L01+: CE pin and CS pin
 RF24 radio(8,9);
