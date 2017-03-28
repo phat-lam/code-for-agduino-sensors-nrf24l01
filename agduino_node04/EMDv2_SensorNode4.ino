@@ -19,7 +19,7 @@
  * 
  * Note: connect a capacitor 10uF between Vcc and Gnd of nRF module.
  * 
- * Created 18 Mar 2017 by AGCT.
+ * Created 18 Mar 2017 by AgriConnect.
  */
 // Comes with IDE
 #include <Wire.h>
