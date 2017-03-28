@@ -27,7 +27,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
 // nRF lib
 #include "nRF24L01.h"
 #include "RF24.h"
@@ -202,7 +201,7 @@ void rf_TransmitDataFunc()
   sprintf(str_data,"S%sT%sH%sL%sC%sD%sP%sE", node_id, dtostrfbuffer1, dtostrfbuffer2, dtostrfbuffer3, dtostrfbuffer4, dtostrfbuffer5, dtostrfbuffer6);  
   // Transmission mode
   radio.stopListening();
-  // Transmit data
+  // Transmit data to gateway by nRF module
   radio.write(&str_data,strlen(str_data) );
   // Receiving mode
   radio.startListening();
